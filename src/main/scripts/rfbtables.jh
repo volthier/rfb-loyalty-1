@@ -17,7 +17,7 @@ entity RfbUser {
 }
 
 relationship OneToMany {
-    RfbLocation{rvbEvent} to RfbEvent,
+    RfbLocation{rfbEvent} to RfbEvent,
     RfbEvent{rfbEventAttendance} to RfbEventAttendance,
     RfbUser{rfbEventAttendance} to RfbEventAttendance
 }
